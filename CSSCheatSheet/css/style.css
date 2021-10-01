@@ -1,0 +1,199 @@
+html {
+    padding-bottom: 300px;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    
+    /* font: normal 14px Arial, Helvetica, sans-serif;  */
+
+    line-height: 1.6em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #00ff00;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button {
+    background-color:  #333;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.clr {
+    clear: both;
+}
+
+.box-1 {
+    background-color: #333;
+    color: #fff;
+
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid #ff0000;
+}
+
+.box-1 h1 {
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    word-spacing: .6em;
+}
+
+.box-2 {
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url(../images/check.png);
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form .form-group label {
+    display: block;
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form textarea {
+    width: 100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    background-color: #333;
+    color: #aaa;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    position: relative;
+    margin-top: 30px;
+
+    background-image: url('../images/bg-img.webp');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.fix-me {
+    position: fixed;
+    bottom: 30px;
+    left: 40px;
+}
+
+.my-list {
+    list-style: none;
+    padding: 0;
+}
+
+.my-list li:first-child {
+    background: red;
+    color: white;
+}
+
+.my-list li:last-child {
+    background-color: green;
+    color: white;
+}
+
+.my-list li:nth-child(5) {
+    background: blue;
+    color: white;
+}
+
+.my-list li:nth-child(odd) {
+    background-color: #ddd;
+    color: #333;
+}
+
+.my-list li:nth-child(even) {
+    background-color: #f4f4f4;
+    color: #333;
+}
